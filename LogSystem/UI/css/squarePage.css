@@ -1,0 +1,57 @@
+﻿/*定义形状*/
+.pagination.square > li > a,
+.pagination.square > li > span {
+    margin: 0 10px;
+    border: 1px solid #ddd;
+}
+
+.pagination.square > li > span {
+  border-color:#337ab7;
+}
+
+.pagination.square > li:first-child > a,
+.pagination.square > li:first-child > span,
+.pagination.square > li:last-child > a,
+.pagination.square > li:last-child > span {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0px;
+}
+/*定义颜色*/
+.pagination.red > li > a,
+.pagination.red > li > span {
+    color: #f00;
+    border: 1px solid #f00;
+}
+
+    /*鼠标移动或焦点时背景色*/
+    .pagination.red > li > a:hover,
+    .pagination.red > li > span:hover,
+    .pagination.red > li > a:focus,
+    .pagination.red > li > span:focus {
+        background-color: #fdd5d5;
+    }
+
+/*active高亮时的颜色*/
+.pagination.red > .active > a,
+.pagination.red > .active > span,
+.pagination.red > .active > a:hover,
+.pagination.red > .active > span:hover,
+.pagination.red > .active > a:focus,
+.pagination.red > .active > span:focus {
+    color: #fff;
+    background-color: #f00;
+    border-color: #f00;
+}
+
+/*disabled时的颜色*/
+.pagination.red > .disabled > span,
+.pagination.red > .disabled > span:hover,
+.pagination.red > .disabled > span:focus,
+.pagination.red > .disabled > a,
+.pagination.red > .disabled > a:hover,
+.pagination.red > .disabled > a:focus {
+    color: #fdd5d5;
+    background-color: #fff;
+    border-color: #f00;
+}

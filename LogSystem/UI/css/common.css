@@ -1,0 +1,425 @@
+﻿/*通用设置*/
+font {
+    font-family: "SimSun";
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #e9edf0;
+    font-family: "SimSun";
+    height: 100%;
+    cursor: default;
+}
+
+/*占位隐藏*/
+.place-hide {
+    visibility: hidden;
+}
+
+.place-show {
+    visibility: visible;
+}
+
+#divBodyContent {
+    height: 100%;
+}
+
+input {
+    background: white;
+}
+
+.fullParent {
+    width: 100%;
+    height: 100%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.noMargin {
+    margin: 0 !important;
+}
+
+.noPadding {
+    padding: 0 !important;
+}
+
+.marginL5 {
+    margin-left: 5px !important;
+}
+
+.marginL10 {
+    margin-left: 10px !important;
+}
+
+.marginL15 {
+    margin-left: 15px !important;
+}
+
+.marginL30 {
+    margin-left: 30px !important;
+}
+
+.marginT5 {
+    margin-top: 5px !important;
+}
+
+.marginT15 {
+    margin-top: 15px !important;
+}
+
+.marginT30 {
+    margin-top: 30px !important;
+}
+
+.marginT50 {
+    margin-top: 50px !important;
+}
+
+.marginR5 {
+    margin-right: 5px !important;
+}
+
+.marginR10 {
+    margin-right: 10px !important;
+}
+
+.marginR15 {
+    margin-right: 15px !important;
+}
+
+.marginR30 {
+    margin-right: 30px !important;
+}
+
+.inline-block {
+    display: inline-block !important;
+}
+
+.unSelect {
+    -webkit-user-select: none; /* Chrome all / Safari all */
+    -moz-user-select: none; /* Firefox all */
+    -ms-user-select: none; /* IE 10+  No support for these yet, use at own risk */
+    -o-user-select: none;
+    user-select: none;
+}
+
+.select {
+    -webkit-user-select: text; /* Chrome all / Safari all */
+    -moz-user-select: text; /* Firefox all */
+    -ms-user-select: text; /* IE 10+  No support for these yet, use at own risk */
+    -o-user-select: text;
+    user-select: text;
+}
+
+ul {
+    list-style-type: none;
+}
+
+div.logo > img {
+    cursor: pointer;
+}
+
+.spanClose {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+    .spanClose:hover {
+        color: #d9534f;
+    }
+
+.op-ctl {
+    cursor: pointer;
+    color: gray;
+}
+
+    .op-ctl:hover {
+        color: #222;
+    }
+
+
+/*通用设置-End*/
+
+/*导航栏*/
+
+/*logo设置*/
+.logo {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar-brand:hover {
+    cursor: pointer;
+}
+/*导航栏图标*/
+#divNavIcon {
+    color: #ccc;
+}
+
+    #divNavIcon ul {
+        list-style-type: none;
+        margin: 0;
+        margin-top: 3px;
+    }
+
+    #divNavIcon li {
+        margin: 0 15px;
+        display: inline-block;
+    }
+
+        #divNavIcon li .badge {
+            margin-top: -25px;
+            margin-left: 1px;
+        }
+
+        #divNavIcon li span:first-child {
+            font-size: 1.5em;
+        }
+
+        #divNavIcon li:hover {
+            color: white;
+            cursor: pointer;
+        }
+
+/*导航栏end*/
+
+
+/*首页过虑与筛选工具栏及模板页脚*/
+.span-toolbar {
+    cursor: pointer;
+    color: #ccc;
+}
+
+    .span-toolbar:hover {
+        color: #fff;
+    }
+/*页脚设置*/
+.footer-area {
+    margin: 30px auto 15px auto;
+}
+
+    .footer-area ul {
+        text-align: center;
+        list-style-type: none;
+    }
+
+        .footer-area ul li {
+            display: inline;
+            margin: 0 30px;
+        }
+
+
+
+/*分页*/
+.pageContainer {
+    text-align: center;
+    margin-top: 70px;
+}
+
+    .pageContainer ul {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+        .pageContainer ul li a {
+            box-shadow: #bbb 0px 0px 1px;
+        }
+
+            .pageContainer ul li a:hover {
+                background-color: #5cb85c;
+                box-shadow: #bbb 0px 0px 10px;
+                color: white;
+            }
+
+.btnToPage {
+    height: 26px;
+    padding: 0 5px;
+    margin-top: -3px;
+}
+
+.inputPage {
+    padding: 0 5px;
+}
+
+/*分页end*/
+
+/*遮罩*/
+#divMask {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    filter: alpha(opacity=70);
+    background-color: #000;
+    z-index: 501;
+    left: 0px;
+    display: none;
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+    text-align: center;
+    padding-top: 70px;
+}
+
+    #divMask span {
+        display: block;
+        color: white;
+    }
+
+        #divMask span:first-child {
+            font-size: 3em;
+        }
+/*遮罩End*/
+
+/*分隔线*/
+.splitLine {
+    border-bottom: 3px solid gray;
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+/*分隔线End*/
+
+/*验证码*/
+.vcode {
+    max-height: 32px;
+    max-width: 100px;
+    margin-top: 1px;
+}
+/*验证码End*/
+
+
+/*右下角浮动区*/
+#fix_block {
+    display: none;
+    background-color: #e9edf0;
+}
+
+.fix_middle {
+    text-align: center;
+    position: fixed;
+    bottom: 25px;
+    right: 0px;
+    border: 1px solid #bbb;
+    width: 45px;
+    box-shadow: #bbb 0px 0px 20px;
+    display: none;
+}
+
+.fix_bottom {
+    text-align: center;
+    position: fixed;
+    bottom: 130px;
+    right: 0px;
+    border: 1px solid #bbb;
+    width: 45px;
+    box-shadow: #bbb 0px 0px 20px;
+    display: none;
+}
+
+#fix_block > div {
+    padding: 5px 0;
+    border-bottom: 1px solid #bbb;
+    color: gray;
+}
+
+    #fix_block > div:nth-child(2) {
+        padding: 0;
+    }
+
+    #fix_block > div:not(:nth-child(2)):hover {
+        cursor: pointer;
+        color: #222;
+    }
+
+/*右下角浮动区end*/
+
+
+/*超链接提示*/
+.linkTip {
+    font-size: 0.9em;
+}
+/*超链接提示End*/
+
+/* 自动隐藏提示 */
+.auto-hide-tips {
+    position: fixed;
+    z-index: 999;
+    bottom: 50%;
+    left: 50%;
+    margin: 0 0 -20px -80px;
+    background-color: rgba(0, 0, 0, 0.2);
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr=#30000000, endColorstr=#30000000);
+    padding: 6px;
+}
+
+.auto-hide-tips-wrap {
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid #F4D9A6;
+    background-color: #FFFDEE;
+    font-size: 14px;
+}
+/* 自动隐藏提示End */
+
+/*bootstrap调整*/
+.glyphicon {
+    position: relative;
+    top: 2px;
+}
+
+.dropdown-menu {
+    min-width: 0px;
+}
+
+    .dropdown-menu li a:hover {
+        background-color: #ddd;
+    }
+
+/*调整导航栏,弹窗,遮罩层的 z-index*/
+.navbar-static-top {
+    z-index: 498;
+}
+
+.modal-backdrop {
+    z-index: 499;
+}
+
+.modal {
+    z-index: 500;
+}
+/*bootstrap调整End*/
+
+/*bootstrap还原,针对Form*/
+
+form .glyphicon {
+    position: absolute;
+    top: 0;
+}
+/*bootstrap还原,针对Form   End*/
+
+
+/*ueditor受BS影响的*/
+.edui-colorpicker-nocolor {
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+/*ueditor受BS影响的 End*/
+
+.datetimepicker {
+-webkit-user-select: none; /* Chrome all / Safari all */
+    -moz-user-select: none; /* Firefox all */
+    -ms-user-select: none; /* IE 10+  No support for these yet, use at own risk */
+    -o-user-select: none;
+    user-select: none;
+
+}

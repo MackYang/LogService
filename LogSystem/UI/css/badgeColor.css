@@ -1,0 +1,40 @@
+﻿/*徽章背景颜色定义*/
+.badge-danger {
+    background-color: #d9534f;
+}
+
+.badge-success {
+    background-color: #5cb85c;
+}
+
+.badge-warning {
+    background-color: #f0ad4e;
+}
+
+.badge-info {
+    background-color: #5bc0de;
+}
+/*徽章内容颜色定义*/
+.badge-content-default {
+    color: #a7a9aa;
+    background-color: #fff;
+}
+.badge-content-danger {
+    color: #d9534f;
+    background-color: #fff;
+}
+
+.badge-content-success {
+    color: #5cb85c;
+    background-color: #fff;
+}
+
+.badge-content-warning {
+    color: #f0ad4e;
+    background-color: #fff;
+}
+
+.badge-content-info {
+    color: #5bc0de;
+    background-color: #fff;
+}

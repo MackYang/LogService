@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FrameInner.master.cs" Inherits="UI.Master.FrameInner" %>
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+    <!-- Bootstrap -->
+
+    <link href="/ui/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/ui/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/ui/css/common.css" rel="stylesheet">
+    <link href="/ui/css/badgeColor.css" rel="stylesheet">
+    <link rel="stylesheet" href="/ui/css/bootstrapValidator.min.css" />
+    <script src="/ui/js/jquery.min.js"></script>
+    <script src="/ui/js/jquery.plugin.migrate1.2.1.js"></script>
+    <script src="/ui/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/ui/js/common.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="container-fluid">
+        <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    
+    <script src="/ui/js/Win8IE10WP8Patch.js"></script>
+    <script src="/ui/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/ui/js/validate/bootstrapValidator.js"></script>
+    <script type="text/javascript" src="/ui/js/validate/language/zh_CN.js"></script>
+
+</body>
+</html>
