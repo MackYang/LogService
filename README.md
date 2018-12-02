@@ -255,11 +255,12 @@ namespace Demo
 
 **日志查询**
 
-查询所有业务系统的日志
-
-访问http://localhost:81/ui/pages/sysloglist.aspx
+查询所有业务系统的日志,访问http://localhost:81/ui/pages/sysloglist.aspx
 
 
-查询指定业务系统的日志
+查询指定业务系统的日志,访问http://localhost:81/ui/pages/log.aspx?systemId=xxx
 
-访问http://localhost:81/ui/pages/log.aspx?systemId=xxx
+
+<br/>
+<br/>
+最后祝大家使用愉快,如果有帮助到您,记得点个星,再见不负遇见!
