@@ -4,6 +4,9 @@
 以WebApi和Web页面的方式提供通用的日志记录与查询服务(基于.NetFramework4.5,写于2015年)
 
 <br/><br/>
+
+---
+
 ### 部署说明
 
 在mysql数据库上运行database.sql,以创建库表结构.
@@ -42,6 +45,7 @@ State为其它时,Data为具体失败的原因
 </td></tr></tbody></table></div><div id="floating-scrollbar" style="position: fixed; bottom: 0px; height: 30px; overflow-x: auto; overflow-y: hidden; display: block; left: 325px; width: 566px;"><div style="border: 1px solid rgb(255, 255, 255); opacity: 0.01; width: 676px;"></div></div>
 
 
+---
 
 ### 使用方式
 
@@ -59,6 +63,8 @@ State为其它时,Data为具体失败的原因
 
 如果您使用了Sunny框架,只要修改appsetting.json中的日志配置部分即可.
 
+<br/>
+<br/>
 如果您没用使用Sunny框架,那么需要在程序中通过Post的方式调用ApiController中的AddLog方法.
 
 下面是C#代码的日志辅助类,供参考:
@@ -242,3 +248,18 @@ namespace Demo
 }
 ```
  
+
+ 下边附上PostMan的调用参数与返回值截图:
+
+![](/Doc/addLog.png)
+
+**日志查询**
+
+查询所有业务系统的日志
+
+访问http://localhost:81/ui/pages/sysloglist.aspx
+
+
+查询指定业务系统的日志
+
+访问http://localhost:81/ui/pages/log.aspx?systemId=xxx
