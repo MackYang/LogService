@@ -1,3 +1,4 @@
+ 
 ## 日志服务
 
 以WebApi和Web页面的方式提供通用的日志记录与查询服务(基于.NetFramework4.5,写于2015年)
@@ -239,3 +240,4 @@ namespace Demo
     }
 }
 ```
+ 
