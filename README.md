@@ -53,7 +53,7 @@ State为其它时,Data为具体失败的原因
 
 记录前的准备:
 
-1,请先在biz_system_log表里添加业务系统的信息,id字段就是业务系统的systemId,一般用guid.
+1,请先在biz_system表里添加业务系统的信息,id字段就是业务系统的systemId,一般用guid.
 
 2,重启网站(目的是刷新缓存中的业务系统信息))或用PostMan调用ApiController中的RefreshSystemList方法,该方法参数的systemId是Set.config中配置的,不是数据库中的.
 
